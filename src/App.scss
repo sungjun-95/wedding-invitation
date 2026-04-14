@@ -11,16 +11,16 @@
 @use "./component/shareButton";
 
 :root {
-  --theme-color: #ff8585;
-  --theme-bg-color: #ffe7e7;
-  --alt-color: #c28080;
-  --alt-bg-color: #f4f0f0;
-  --dark-color: #282c34;
-  --dark-grey-color: #d2d2d2;
-  --light-grey-color: #eaeaea;
-  --light-color: #f9f9f9;
+  --theme-color: #a67c52;        // 포인트 (브라운 골드 느낌)
+  --theme-bg-color: #fdfaf6;     // 전체 배경 (아이보리)
+  --alt-color: #c2a68d;          // 서브 포인트
+  --alt-bg-color: #f5efe6;       // 카드/섹션 배경
+  --dark-color: #3e3a36;         // 텍스트 (부드러운 다크 브라운)
+  --dark-grey-color: #bfb6aa;
+  --light-grey-color: #e6e0d8;
+  --light-color: #ffffff;        // 카드 내부 (흰색 유지)
   --white-color: #ffffff;
-  --red-color: #ff0000;
+  --red-color: #c94f4f;          // 강조 (너무 튀지 않게 다운된 레드)
 
   font-family: "MapoGoldenPier";
   font-size: 20px;
@@ -28,7 +28,6 @@
     font-size: 4vw;
   }
 }
-
 @media print {
   body {
     print-color-adjust: exact;
