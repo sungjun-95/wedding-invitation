@@ -10,7 +10,7 @@ dayjs.locale("ko")
 export { dayjs }
 
 export const WEDDING_DATE = dayjs.tz("2026-07-11 12:10", "Asia/Seoul")
-export const WEDDING_DATE_FORMAT = `2026년 07월 11일 오후 12시${WEDDING_DATE.minute() === 0 ? "" : " 10분"}`
+export const WEDDING_DATE_FORMAT = `2026년 07월 11일(토) 오후 12시${WEDDING_DATE.minute() === 0 ? "" : " 10분"}`
 
 // 예식 당월 휴무일. 켈린더에 표시하기 위함.
 // 예: 예식일 8월 -> 8월 15일 광복절
