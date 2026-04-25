@@ -19,7 +19,6 @@ import image17 from "./image17.jpg"
 import image18 from "./image18.jpg"
 import image19 from "./image19.jpg"
 import image20 from "./image20.jpg"
-import image21 from "./image21.jpg"
 import image22 from "./image22.jpg"
 
 export const COVER_IMAGE = coverImage
@@ -45,6 +44,5 @@ export const GALLERY_IMAGES = [
   image18,
   image19,
   image20,
-  image21,
   image22
 ]
