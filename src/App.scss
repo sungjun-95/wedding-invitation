@@ -21,6 +21,7 @@
   --light-color: #ffffff;        // 카드 내부 (흰색 유지)
   --white-color: #ffffff;
   --red-color: #c94f4f;          // 강조 (너무 튀지 않게 다운된 레드)
+  --pink-color: #fda3a3;
 
   font-family: "MapoGoldenPier";
   font-size: 20px;
@@ -45,6 +46,7 @@ $colors: (
   light-color: var(--light-color),
   white-color: var(--white-color),
   red-color: var(--red-color),
+  pink-color: var(--pink-color),
 );
 
 @each $name, $color in $colors {
