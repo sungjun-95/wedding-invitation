@@ -20,18 +20,26 @@ import image18 from "./image18.jpg"
 import image19 from "./image19.jpg"
 import image20 from "./image20.jpg"
 import image22 from "./image22.jpg"
+import image101 from "./image101.jpg"
+import image102 from "./image102.jpg"
+import image103 from "./image103.jpg"
+import image104 from "./image104.jpg"
 
 export const COVER_IMAGE = coverImage
 
 export const GALLERY_IMAGES = [
   image1,
+  image101,
+  image103,
   image2,
   image3,
   image4,
   image5,
   image6,
+  image104,
   image7,
   image8,
+  image102,
   image9,
   image10,
   image11,
