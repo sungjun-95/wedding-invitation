@@ -14,7 +14,6 @@ import image9a from "./image9a.jpg"
 import image9b from "./image9b.jpg"
 import image10 from "./image10.jpg"
 import image11 from "./image11.jpg"
-import image12 from "./image12.jpg"
 import image12a from "./image12a.jpg"
 import image12b from "./image12b.jpg"
 import image13 from "./image13.jpg"
@@ -37,12 +36,11 @@ export const GALLERY_IMAGES = [
   image6a,
   image7,
   image8,
-  image9,
   image9a,
   image9b,
+  image9,
   image10,
   image11,
-  image12,
   image12a,
   image12b,
   image13,
